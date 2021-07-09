@@ -9,3 +9,8 @@ function isTouching(a, b) {
 		aRect.left > bRect.left + bRect.width
 	);
 }
+
+const avatar = document.querySelector('#player')
+window.addEventListener('keyup',function(event){
+	console.log(event.key)
+})
