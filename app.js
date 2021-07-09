@@ -45,4 +45,4 @@ const moveCoin = () => {
   coin.style.top = `${y}px`
 	coin.style.left = `${x}px`
 }
-moveCoin()
+// moveCoin()
